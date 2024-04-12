@@ -6,7 +6,7 @@ If you haven't downloaded Vagrant yet, check how to install Vagrant by [clicking
 
 **Don't remember to make a new directory for this Vagrantfile and other Vagrantfiles too.**
 
-*Have fun with the config!!*
+***Have fun with the config!!***
 
 ```
 
