@@ -1,0 +1,29 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+# Copyright 2024 Saku Laitinen https://github.com/KebabGarva/
+
+$tscript = <<TSCRIPT
+echo "running apt-get update aww yea"
+apt-get update
+echo "Okay, let's do this - https://github.com/KebabGarva/"
+TSCRIPT
+
+Vagrant.configure("2") do |config|
+	config.vm.synced_folder ".", "/vagrant", disabled: true
+	config.vm.synced_folder "shared/", "/home/vagrant/shared", create: true
+	config.vm.provision "shell", inline: $tscript
+
+	config.vm.define "s001" do |s001|
+		s001.vm.hostname = "s001"
+		s001.vm.network "private_network", ip: "192.168.56.101"
+		s001.vm.box = "kalilinux/rolling"
+	end
+
+	config.vm.define "s002" do |s002|
+		s002.vm.hostname = "s002"
+		s002.vm.network "private_network", ip: "192.168.56.102"
+		s002.vm.box = "daniele2010/Metasploitable2"
+		s002.vm.guest = "ubuntu"
+	end
+	
+end

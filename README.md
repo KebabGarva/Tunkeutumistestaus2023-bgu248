@@ -1,2 +1,2 @@
 # Tunkeutumistestaus2024-bgu248
-Tässä repositoryssa on kaikki tekemäni tehtävät Tero Karvisen kurssille "Penetration testing course 2023"
+Tässä repositoryssa on kaikki tekemäni tehtävät Tero Karvisen kurssille "Ethical Hacking 2024"
