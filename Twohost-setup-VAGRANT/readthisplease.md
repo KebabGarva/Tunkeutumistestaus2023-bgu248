@@ -6,10 +6,6 @@ If you haven't downloaded Vagrant yet, check how to install Vagrant by [clicking
 
 Don't forget to make a new directory for this Vagrantfile and other Vagrantfiles too.
 
-
-
-
-
 ***Have fun with the config!!***
 
 ```
