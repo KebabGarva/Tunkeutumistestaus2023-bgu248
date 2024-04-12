@@ -250,14 +250,13 @@ Tallensin porttiskannauksen tuloksen nmapin omalla työkalulla ja Wiresharkiin.
 
 ```
 
-nmap -oA /home/vagrant/nmaptulokset 192.168.56.102 
+nmap -oA foo
 ```
 
+
+
+
 </details>
-
-## Skriptin teko
-
-Käytännössä kopioin suoraan Teron ohjeesta (klikkaa [tästä ohjeeseen]()) ja kirjoitin satunnaisia komentoja.
 
 
 
