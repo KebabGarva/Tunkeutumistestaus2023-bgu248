@@ -1,4 +1,4 @@
-# A quick way to establish a testing environment for penetration testing
+# A quick way to establish a testing environment for penetration testing (Kali and Metasploitable2)
 
 Special thanks to Vagrant for making it easy and fast to do this whole process.
 
